@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  Card,
-  CardActionArea,
-  CardContent,
-  Typography,
-} from "@mui/material";
+import { Box, Card, CardContent, Typography } from "@mui/material";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PhoneIcon from "@mui/icons-material/Phone";
 import saiOpticsShop from "../../public/saiOpticsShop.png";
@@ -22,7 +15,7 @@ export default function Contactpage() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          px: { xs: 2, sm: 4 }, // padding left/right
+          px: { xs: 2, sm: 4 }, 
         }}
       >
         <div>
