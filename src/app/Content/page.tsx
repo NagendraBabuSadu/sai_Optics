@@ -1,12 +1,12 @@
+'use client'
 import * as React from "react";
 import { useProducts } from "../context/productsContext";
 import eyeTestImage from "../../../public/eyeTest.jpg";
 import Image from "next/image";
 
 
-interface IContentProps {}
 
-const Content: React.FunctionComponent<IContentProps> = (props) => {
+const Content: React.FunctionComponent = () => {
   const { categories, products } = useProducts();
   console.log("categories: ", categories);
   console.log("products: ", products);

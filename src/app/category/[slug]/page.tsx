@@ -1,17 +1,24 @@
 "use client";
 
 import * as React from "react";
+import { use } from "react"; // <-- Important
 import { Product } from "@/app/types/products";
 import productsData from "@/app/data/productsData.json";
+import Image from "next/image";
+import Link from "next/link";
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+export default function CategoryPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = use(params);
   const products: Product[] = productsData.products;
 
   console.log("slug, ", slug);
 
   const label = slug
-    .split("-")
+    ?.split("-")
     .map((w) => w[0].toUpperCase() + w.slice(1))
     .join(" ")!;
 
@@ -48,18 +55,20 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 (e.currentTarget.style.boxShadow = "0 0 0 1px")
               }
             >
-              <a
+              <Link
                 key={item.id}
                 className="relative"
-                target="_target"
+                target="_blank"
                 href={item.image!}
               >
-                <img
+                <Image
                   src={item.image}
                   alt={item.name}
                   className="h-70 w-full rounded-xl object-contain shadow-blue-500/10 "
+                  width="1080"
+                  height={1000}
                 />
-              </a>
+              </Link>
               <p className="mt-2 font-semibold text-center">{item.name}</p>
               <p className="text-sm text-gray-500">₹{item.price}</p>
             </li>

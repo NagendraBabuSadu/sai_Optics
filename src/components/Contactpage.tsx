@@ -73,27 +73,24 @@ export default function Contactpage() {
             }}
             className="contactCard"
           >
-            <CardActionArea>
-              <CardContent component="a" href="mailto:nagu871reddy@gmail.com">
-                <MailOutlineIcon
-                  sx={{
-                    fontSize: { xs: "4rem", sm: "6rem", md: "8rem" },
-                    color: "red",
-                  }}
-                />
-                <Button sx={{ textTransform: "lowercase" }}>
-                  <Typography
-                    variant="h5"
-                    sx={{
-                      color: "blue",
-                      fontSize: { xs: "1rem", md: "1.3rem" },
-                    }}
-                  >
-                    nagu871reddy@gmail.com
-                  </Typography>
-                </Button>
-              </CardContent>
-            </CardActionArea>
+            <CardContent component="a" href="mailto:nagu871reddy@gmail.com">
+              <MailOutlineIcon
+                sx={{
+                  fontSize: { xs: "4rem", sm: "6rem", md: "8rem" },
+                  color: "red",
+                }}
+              />
+
+              <Typography
+                variant="h5"
+                sx={{
+                  color: "blue",
+                  fontSize: { xs: "1rem", md: "1.3rem" },
+                }}
+              >
+                nagu871reddy@gmail.com
+              </Typography>
+            </CardContent>
           </Card>
 
           <Card
@@ -108,27 +105,24 @@ export default function Contactpage() {
             }}
             className="contactCard"
           >
-            <CardActionArea>
-              <CardContent component="a" href="tel:+919000848795">
-                <PhoneIcon
-                  sx={{
-                    fontSize: { xs: "4rem", sm: "6rem", md: "8rem" },
-                    color: "red",
-                  }}
-                />
-                <Button>
-                  <Typography
-                    variant="h4"
-                    sx={{
-                      color: "blue",
-                      fontSize: { xs: "1rem", md: "1.3rem" },
-                    }}
-                  >
-                    +91 90008 48795
-                  </Typography>
-                </Button>
-              </CardContent>
-            </CardActionArea>
+            <CardContent component="a" href="tel:+919000848795">
+              <PhoneIcon
+                sx={{
+                  fontSize: { xs: "4rem", sm: "6rem", md: "8rem" },
+                  color: "red",
+                }}
+              />
+
+              <Typography
+                variant="h4"
+                sx={{
+                  color: "blue",
+                  fontSize: { xs: "1rem", md: "1.3rem" },
+                }}
+              >
+                +91 90008 48795
+              </Typography>
+            </CardContent>
           </Card>
         </Box>
 

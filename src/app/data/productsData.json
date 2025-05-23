@@ -20,34 +20,6 @@
       "stock": 25,
       "ratings": 4.5
     },
-    {
-      "id": "LK1002",
-      "name": "Aviator Polarized Sun Glasses",
-      "brand": "Vincent Chase",
-      "category": "Sun Glasses",
-      "price": 1999,
-      "discountPrice": 1999,
-      "color": "Green",
-      "frameType": "Full Rim",
-      "frameShape": "Aviator",
-      "image": "https://m.media-amazon.com/images/I/51wwVl2r-WL._AC_UY1100_.jpg",
-      "stock": 40,
-      "ratings": 4.3
-    },
-    {
-      "id": "LK1003",
-      "name": "Blue Cut Computer Glasses",
-      "brand": "Blu",
-      "category": "Computer Glasses",
-      "price": 1599,
-      "discountPrice": 1999,
-      "color": "Blue",
-      "frameType": "Half Rim",
-      "frameShape": "Rectangle",
-      "image": "https://m.media-amazon.com/images/I/51hgpovh0lL.jpg",
-      "stock": 30,
-      "ratings": 4.6
-    },
 
     {
       "id": "LK1005",
@@ -315,34 +287,7 @@
       "stock": 11,
       "ratings": 4.2
     },
-    {
-      "id": "SU1008",
-      "name": "TinyEyez Aviator Sun Glasses",
-      "brand": "Maui Jim",
-      "category": "Sun Glasses",
-      "price": 1219,
-      "discountPrice": 3407,
-      "color": "Black",
-      "frameType": "Rimless",
-      "frameShape": "Aviator",
-      "image": "https://media.istockphoto.com/id/690016920/photo/woman-suffers-from-heat-of-strong-sunlight-blur-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=Vd0X6Ocr2XywZ8S4PNYegckExGLUHNI8l6dAbTBnVfU=",
-      "stock": 85,
-      "ratings": 5.0
-    },
-    {
-      "id": "SU1009",
-      "name": "TinyEyez Wayfarer Sun Glasses",
-      "brand": "TinyEyez",
-      "category": "Sun Glasses",
-      "price": 1030,
-      "discountPrice": 3876,
-      "color": "Brown",
-      "frameType": "Half Rim",
-      "frameShape": "Wayfarer",
-      "image": "https://media.istockphoto.com/id/1168108323/photo/the-ocean-brings-everyone-closer-together.webp?a=1&b=1&s=612x612&w=0&k=20&c=vbtGIUGOO3_Ul9kdzqtGfANfd1gPYwen_cBvtysU7eY=",
-      "stock": 62,
-      "ratings": 4.0
-    },
+
     {
       "id": "CO1000",
       "name": "Acuvue Cat Eye Computer Glasses",
@@ -371,20 +316,7 @@
       "stock": 65,
       "ratings": 3.8
     },
-    {
-      "id": "CO1002",
-      "name": "TinyEyez Round Computer Glasses",
-      "brand": "",
-      "category": "Computer Glasses",
-      "price": 1858,
-      "discountPrice": 2751,
-      "color": "Green",
-      "frameType": "Full Rim",
-      "frameShape": "Round",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xkML3xOi4QJBuqsMSoZeAf3TW-rQyAc3dQ&s",
-      "stock": 59,
-      "ratings": 4.8
-    },
+
     {
       "id": "CO1003",
       "name": " Eyeplus Oval Computer Glasses",
@@ -441,20 +373,7 @@
       "stock": 85,
       "ratings": 4.6
     },
-    {
-      "id": "CO1007",
-      "name": " Round Computer Glasses",
-      "brand": "",
-      "category": "Computer Glasses",
-      "price": 1410,
-      "discountPrice": 2860,
-      "color": "Red",
-      "frameType": "Rimless",
-      "frameShape": "Round",
-      "image": "https://m.media-amazon.com/images/I/41O2mUO7xHL._AC_UY1100_.jpg",
-      "stock": 30,
-      "ratings": 4.3
-    },
+
     {
       "id": "CO1008",
       "name": "Specsavers Rectangle Computer Glasses",
@@ -498,20 +417,7 @@
       "stock": 61,
       "ratings": 4.1
     },
-    {
-      "id": "KI1001",
-      "name": "TinyEyez Round Kids Glasses",
-      "brand": "",
-      "category": "Kids Glasses",
-      "price": 1910,
-      "discountPrice": 3585,
-      "color": "Red",
-      "frameType": "Rimless",
-      "frameShape": "Round",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfFuPW-zwjcsRJRSKuJVU8uen6OO2giZQf-w&s",
-      "stock": 77,
-      "ratings": 3.5
-    },
+ 
     {
       "id": "KI1002",
       "name": " Wayfarer Kids Glasses",

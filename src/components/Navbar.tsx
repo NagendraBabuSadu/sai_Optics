@@ -5,10 +5,8 @@ import saiOpticsLogo from "../../public/saiOpticsLogo.png";
 import Image from "next/image";
 import Link from "next/link";
 
-interface INavbarProps {}
-
-const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
-  const [data, setData] = React.useState(productsData);
+const Navbar: React.FunctionComponent = () => {
+  const [data] = React.useState(productsData);
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const slugify = (str: string) => str.toLowerCase().replace(/\s+/g, "-");
@@ -58,7 +56,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
             } w-full md:block md:w-auto`}
           >
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              {data.categories.map((cat) => (
+              {data.categories?.map((cat) => (
                 <li key={cat}>
                   <Link
                     href={`/category/${slugify(cat)}`}

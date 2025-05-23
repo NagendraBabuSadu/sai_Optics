@@ -1,4 +1,3 @@
-// app/layout.tsx
 import type { Metadata } from "next";
 import "../globals.css"; // make sure global styles are applied here
 import Navbar from "@/components/Navbar";
@@ -15,12 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-be-installed="true">
       <body className="antialiased">
         <Navbar />
         {children}
         <Footer />
-          
       </body>
     </html>
   );
