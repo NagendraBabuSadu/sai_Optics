@@ -1,9 +1,7 @@
 "use client";
 
 import React from "react";
-import App from "./App";
-import PageWrapper from "@/components/PageWrapper";
-import { ProductsProvider } from "./context/productsContext";
+
 
 export default function Home() {
   return (
