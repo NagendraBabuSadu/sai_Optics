@@ -2,9 +2,9 @@
 
 import dynamic from "next/dynamic";
 import * as React from "react";
-import Content from "./Content/page";
+import Content from "./content/page";
 import Contactpage from "@/components/Contactpage";
-import GridImages from "./GridImages/page";
+import GridImages from "./gridimages/page";
 
 const Carousel = dynamic(() => import("@/components/CarouselComponent"), {
   ssr: false,
