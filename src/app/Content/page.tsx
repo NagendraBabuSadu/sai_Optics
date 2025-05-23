@@ -1,15 +1,9 @@
-'use client'
+"use client";
 import * as React from "react";
-import { useProducts } from "../context/productsContext";
 import eyeTestImage from "../../../public/eyeTest.jpg";
 import Image from "next/image";
 
-
-
 const Content: React.FunctionComponent = () => {
-  const { categories, products } = useProducts();
-  console.log("categories: ", categories);
-  console.log("products: ", products);
   return (
     <div className="relative rounded-lg h-[300px] md:h-[768px] flex flex-col items-center justify-center text-center p-6 mt-3 ">
       <h1 className="text-3xl md:text-5xl font-bold uppercase mt-3 p-2">
@@ -22,7 +16,6 @@ const Content: React.FunctionComponent = () => {
         <Image src={eyeTestImage} alt="" width={1000} />
       </div>
       <hr />
-     
     </div>
   );
 };
